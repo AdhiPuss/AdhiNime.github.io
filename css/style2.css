@@ -1,0 +1,408 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    width: 1450px;
+    margin: auto;
+    position: relative;
+}
+
+.firstname a {
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: courier;
+    color: #364f6b;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.lastname a {
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: courier;
+    color: crimson;
+    margin-top: 5px;
+}
+
+.menu {
+    float: right;
+    max-height: 100px;
+    line-height: 80px;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #ffffff;
+    z-index: 1;
+    border: 1px solid #364f6b;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    padding-left: 0px;
+    padding: 0px 22px 0 22px;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav ul li :hover{
+    text-decoration: underline;
+}
+
+nav ul > li > img {
+    width: 50px;
+    height: 50px;
+    margin-top: 12px;
+    border-radius: 50px;
+}
+
+nav ul > li > img :hover {
+    width: 65px;
+    height: 65px;
+    padding: 0px;
+    border-radius: 65px;
+    transition: all .3s ease-in-out;
+}
+
+.Nime {
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'comic sans-ms';
+    color: #00ABB3;
+    margin-left: 25px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+
+h2 {
+    font-family: 'comic sans-ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #3F0071;
+    width: 100%;
+    line-height: 50px;
+    margin-left: 25px;
+}
+
+.tebal {
+    background: #6C4AB6;
+    border-radius: 25px;
+    margin-top: 10px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.dimana {
+    font-family: 'comic sans-ms';
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    color: #3F0071;
+    margin-left: 25px;
+}
+
+p {
+    font-family: 'comic sans-ms';
+    font-weight: 800;
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: black;
+    width: 100%;
+    line-height: 50px;
+    margin-left: 25px;
+}
+
+.naruto {
+    background-size: 100px;
+    margin-left: 25px;
+    margin-top: 155px;
+    border-radius: 100px;
+    width: 1000px;
+    height: 500px;
+    
+}
+
+.kolom .desc {
+
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'comic sans-ms';
+    color: #00ABB3;
+    margin-left: 25px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+h2 {
+    font-family: 'comic sans-ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 30px;
+    color: #3F0071;
+    width: 100%;
+    line-height: 50px;
+    margin-left: 25px;
+}
+
+p {
+    font-family: 'comic sans-ms';
+    font-weight: 500;
+    font-size: 15px;
+    color: black;
+    width: 100%;
+    line-height: 20px;
+    margin-left: 25px;
+    text-align: justify;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+
+}
+
+.help-list {
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    display: block;
+    margin-left: 150px;
+    margin-right: auto;
+}
+
+.simbol-help {
+    width: 20%;
+    margin: 100px ;
+}
+
+.simbol-help img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.simbol-help2 {
+    width: 20%;
+    position: absolute;
+    left: 680px;
+    top: 0px;
+}
+
+.simbol-help2 img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.simbol-help3 {
+    width: 20%;
+    position: absolute;
+    left: 637px;
+    top: 215px;
+}
+
+.simbol-help p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 20px;
+    margin-left: 45px;
+    color: #3F0071;
+}
+
+.simbol-help2 p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 20px;
+    color: #3F0071;
+    text-align: center;
+}
+
+.simbol-help3 p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 20px;
+    color: #3F0071;
+    text-align: center;
+}
+
+.text {
+    float: left;
+    position: absolute;
+    left: 300px;
+ 	top: 20px;
+    width: 30%;
+    bottom: 100px;
+    height: 80px;
+    color: black;
+}
+
+.text1 {
+    float: left;
+    position: absolute;
+    left: 255px;
+ 	top: 100px;
+    width: 30%;
+    height: 80px;
+    color: black;
+}
+
+.text2 {
+    position: absolute;
+    left: 55px;
+ 	top: 100px;
+    width: 290%;
+    height: 100px;
+    color: black;
+
+}
+
+.text3 {
+    float: left;
+    position: absolute;
+    left: 255px;
+ 	top: 350px;
+    width: 100%;
+    height: 80px;
+    color: black;
+}
+
+.texting {
+    position: absolute;
+    left: 210px;
+ 	top: 20px;
+    width: 30%;
+    bottom: 100px;
+    height: 80px;
+    color: black;
+}
+
+.texting2 {
+    position: absolute;
+    left: 300px;
+ 	top: 280px;
+    width: 100%;
+    bottom: 50px;
+    height: 80px;
+    color: black;
+}
+
+.texting3 {
+    position: absolute;
+    left: 255px;
+ 	top: 50px;
+    width: 100%;
+    bottom: 50px;
+    height: 80px;
+    color: black;
+}
+
+.text4 {
+    position: absolute;
+    left: 157px;
+ 	top: 135px;
+    width: 200%;
+    height: 100px;
+    color: black;
+}
+
+#about {
+    background: #dedede;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #3F0071;
+    width: 100%;
+    line-height: 50px;
+    margin-left: 25px;
+}
+
+#copyright{
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+.footer-section a{
+    width: 20%;
+    margin-left: 5px;
+}
+
+.footer-section ul li{
+    width: 20%;
+    margin-left: 40px;
+}
